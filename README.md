@@ -34,27 +34,32 @@ python morsecode.py
 Follow the on-screen prompts to convert text to Morse code or Morse code to text.
 
 ## Examples
+
 ### Text to Morse Code
-Input: `Hello World`
+Input: `Hello World`  
 Output: `.... . .-.. .-.. --- / .-- --- .-. .-.. -..`
-![image](https://github.com/bassslapper3390/morsecode/assets/75876257/e4ae7be7-ebcc-4428-b2a8-9f1e791815c3)
+
+<img src="https://github.com/bassslapper3390/morsecode/assets/75876257/e4ae7be7-ebcc-4428-b2a8-9f1e791815c3" alt="Text to Morse Code" width="300"/>
 
 ### Morse Code to Text
-Input: `.... . .-.. .-.. --- / .-- --- .-. .-.. -..`
+Input: `.... . .-.. .-.. --- / .-- --- .-. .-.. -..`  
 Output: `HELLO WORLD`
-<img width="276" alt="image" src="https://github.com/bassslapper3390/morsecode/assets/75876257/b4a12dc6-51dc-4368-a42b-f791d598c981">
 
-### Encrypted The Text
-Input: `HELLO WORLD`
-Key: `3`
-Output: `KHOOR ZRUOG`
-![image](https://github.com/bassslapper3390/morsecode/assets/75876257/2c0939b4-c7ad-4d4b-ada0-2557df68ad8c)
+<img src="https://github.com/bassslapper3390/morsecode/assets/75876257/b4a12dc6-51dc-4368-a42b-f791d598c981" alt="Morse Code to Text" width="300"/>
 
-### Encrypted The Text
-Input: `HELLO WORLD`
-Key: `3`
+### Encrypt the Text
+Input: `HELLO WORLD`  
+Key: `3`  
 Output: `KHOOR ZRUOG`
-![image](https://github.com/bassslapper3390/morsecode/assets/75876257/42838bd9-93f1-4a26-9d95-6b3f9f07ea59)
+
+<img src="https://github.com/bassslapper3390/morsecode/assets/75876257/2c0939b4-c7ad-4d4b-ada0-2557df68ad8c" alt="Encrypt the Text" width="300"/>
+
+### Decrypt the Text
+Input: `KHOOR ZRUOG`  
+Key: `3`  
+Output: `HELLO WORLD`
+
+<img src="https://github.com/bassslapper3390/morsecode/assets/75876257/42838bd9-93f1-4a26-9d95-6b3f9f07ea59" alt="Decrypt the Text" width="300"/>
 
 ## Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
